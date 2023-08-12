@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  visibility: hidden;
+  background: #f1f1f1;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  visibility: hidden;
+  background-color: #818B99;
+  border:5px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  visibility: hidden;
+  border: 5px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+  background: #2c2c2c;
+}
