@@ -13,7 +13,6 @@ export function App() {
         while (loremList.length < lorem.loremCount) {
             loremList.push(LoremCard);
         }
-
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [lorem.loremCount]);
 
@@ -25,6 +24,7 @@ export function App() {
                         dispatch(addLorem());
                         console.log("za");
                     }}
+                    className="border-radius-10 bg-slate-950 hover:bg-slate-900 text-white font-bold py-2 px-4 rounded"
                 >
                     Add Lorem
                 </button>
